@@ -19,7 +19,10 @@ function setup() {
   } else { 
     var url="https://samuraivai2007.github.io/bn/";
     window.location.href=url
-} 
+}else{
+ var url="https://samuraivai2007.github.io/n-bhj/";
+ window.location.href=url
+}
  });
  
 }
@@ -29,6 +32,7 @@ function draw() {
     background(bg);
      fill("red");
       textSize(30);
+        text("runner game",100,100);
         text("Trex Runner",100,200); 
         text("Epic Archery",100,300); 
 //handleMousePressed();
